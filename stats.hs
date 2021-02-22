@@ -16,7 +16,7 @@ mean xs = realToFrac (sum xs) / genericLength xs
 
 median xs = let a = quicksort(xs)in a !! ceiling(genericLength xs / 2)
 
---i didnt write this one
+--i didnt write this one no i did not
 --mode xs
 
 midrange xs = (minimum xs + maximum xs)/2
@@ -25,3 +25,4 @@ midrange xs = (minimum xs + maximum xs)/2
 
 range xs = let a = quicksort xs in maximum a - minimum a
 
+---xxxxx
